@@ -24,7 +24,7 @@
         },
         methods: {
             authenticate() {
-                alert("Ohhhh yeahhhhhhhhhhhhhh💦💦🍑🍑🍑")
+                alert("Ohhhh yeahhhhhhhhhhhhhh")
             }
         },
         
