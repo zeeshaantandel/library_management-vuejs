@@ -32,17 +32,22 @@
     <v-main>
       <router-view/>
     </v-main>
+      <BottomNavbar></BottomNavbar>
   </v-app>
 </template>
 
 <script>
-
+import BottomNavbar from '@/components/BottomNavbar.vue'
 export default {
   name: 'App',
 
   data: () => ({
     //
   }),
+
+  components: {
+    BottomNavbar,
+  },
 };
 </script>
 
