@@ -7,7 +7,7 @@
                 </v-avatar><br>
                 <v-text-field label="Username" v-model="username"></v-text-field>
                 <v-text-field label="Password" v-model="password" type="password"></v-text-field><br>
-                <v-btn small elevation="5" rounded @click="authenticate()">Spank me</v-btn>
+                <v-btn small elevation="5" rounded @click="authenticate()">Click me</v-btn>
             </v-col>
 
         </v-row>
@@ -24,7 +24,7 @@
         },
         methods: {
             authenticate() {
-                alert("Ohhhh yeaahhhh🍑🍑")
+                alert("!!!!!!!!")
             }
         },
         
